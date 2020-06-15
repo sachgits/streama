@@ -39,7 +39,7 @@
 
           <div class="form-group">
             <div class="col-lg-12">
-              <input type="text" name="username" class="form-control" placeholder="Saf Phonenumber">
+              <input type="text" name="username" class="form-control" placeholder="Phone Number">
             </div>
           </div>
 
