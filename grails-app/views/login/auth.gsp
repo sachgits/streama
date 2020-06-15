@@ -39,7 +39,7 @@
 
           <div class="form-group">
             <div class="col-lg-12">
-              <input type="text" name="username" class="form-control" placeholder="{{'LOGIN.USERNAME' | translate}}">
+              <input type="text" name="username" class="form-control" placeholder="Saf Phonenumber">
             </div>
           </div>
 
@@ -53,7 +53,7 @@
               {{'LOGIN.FIRST_TIME_HINT' | translate}}
             </g:if>
             <input style="display: none;" type='checkbox' name='remember_me' id='remember_me' checked='checked'/>
-
+            <button class="btn btn-primary pull-left" ><a href="http://192.168.1.100:3000/register" >Sign Up</a> </button>
             <button class="btn btn-primary pull-right">{{'LOGIN.SUBMIT' | translate}} &nbsp; <i class="ion-chevron-right"></i></button></span>
         </form>
       </div>

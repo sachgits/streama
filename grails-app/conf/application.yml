@@ -71,7 +71,7 @@ environments:
                 maxAge: 600000
                 timeBetweenEvictionRunsMillis: 5000
                 minEvictableIdleTimeMillis: 60000
-                validationQuery: SELECT 1
+                validationQuery: SELECT 13
                 validationQueryTimeout: 3
                 validationInterval: 15000
                 testOnBorrow: true
@@ -139,7 +139,7 @@ grails:
         cache:
             maxsize: 1000
     controllers:
-        defaultScope: singleton
+        defaultScope: session
     converters:
         encoding: UTF-8
     cors:

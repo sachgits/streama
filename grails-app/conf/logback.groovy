@@ -14,11 +14,10 @@ logger("streama", DEBUG)
 logger 'grails.app', INFO
 logger 'grails.app.controllers', DEBUG
 logger 'grails.app.services', DEBUG
-
-// logger 'grails.plugin.springsecurity', TRACE
-// logger 'org.springframework.security', DEBUG
-// logger 'org.hibernate.SQL', DEBUG
-// logger 'org.hibernate.type.descriptor.sql.BasicBinder', TRACE
+logger 'grails.plugin.springsecurity', TRACE
+logger 'org.springframework.security', DEBUG
+logger 'org.hibernate.SQL', DEBUG
+logger 'org.hibernate.type.descriptor.sql.BasicBinder', TRACE
 
 def targetDir = BuildSettings.TARGET_DIR
 if (Environment.isDevelopmentMode() && targetDir) {
