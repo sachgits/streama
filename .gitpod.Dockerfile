@@ -1,4 +1,4 @@
-FROM ubu:latest
+FROM ubuntu:latest
 
 ENV OPENJDK8_VERSION 8.92.14-r1
 ENV GRADLE_VERSION 3.0
