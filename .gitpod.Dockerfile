@@ -10,10 +10,11 @@ VOLUME ["/workspace"]
 # Allow the host to use gradle cache, otherwise gradle will always download plugins & artifacts on every build
 VOLUME ["/root/.gradle/caches/"]
 
-# Install Java (Open JDK)
+# Install Java and curl (Open JDK)
 RUN \
     apt-get update && \
-    apt-get -y install unzip openjdk-8-jdk
+    apt-get -y install unzip openjdk-8-jdk && \
+    apt-get -y install curl
 
 # Download and install Gradle
 RUN \
