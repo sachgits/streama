@@ -1,7 +1,8 @@
 image:
   file: .gitpod.Dockerfile
 tasks:
-  - init: ./gradlew bootRun
+  - init: ./gradlew build
+    command: ./gradlew bootRun
 ports:
   - port: 8080
     onOpen: open-preview
